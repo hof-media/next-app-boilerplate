@@ -1,0 +1,69 @@
+source,target,edgeVal
+Binary Numbers/Binary Representation (concept),Binary Operations/Bit Manipulations (concept),1
+Binary Operations/Bit Manipulations (concept),Data Representation (Types) (concept),1
+Data Representation (Types) (concept),Strings,1
+Data Representation (Types) (concept),Pointers (concept),1
+Data Representation (Types) (concept),C Syntax and Semantics (concept),1
+Strings,Arrays,1
+Strings,Pointers (concept),1
+Arrays,Memory Management (concept),1
+Arrays,x86-64 Syntax and Semantics (concept),1
+Arrays,Buffer Overflow (concept),1
+Arrays,Temporal/Spatial Locality (concept),1
+Compilation (Using C) (concept),C Syntax and Semantics (concept),1
+Compilation (Using C) (concept),x86-64 Syntax and Semantics (concept),1
+Compilation (Using C) (concept),Assembler (concept),1
+C Syntax and Semantics (concept),Compilation (Using C) (concept),1
+C Syntax and Semantics (concept),malloc/free (concept),1
+C Syntax and Semantics (concept),pthread,1
+C Syntax and Semantics (concept),Memory Management (concept),1 
+C Syntax and Semantics (concept),Pointers (concept),1
+Pointers (concept),Strings,1
+Pointers (concept),Arrays,1
+Pointers (concept),Memory Management (concept),1
+Heap,Memory Management (concept),1
+Virtual Memory Organization (concept),Heap,1
+Virtual Memory Organization (concept),Memory Management (concept),1
+Virtual Memory Organization (concept),Stack/Stack Frames,1
+Virtual Memory Organization (concept),Address Mapping/Translation (concept),1
+Virtual Memory Organization (concept),Addressing/Address Space (concept),1
+Virtual Memory Organization (concept),Dynamic Memory Allocation (concept),1
+Memory Management (concept),Cache/Cache Organization (concept),1
+Memory Management (concept),Dynamic Memory Allocation (concept),1
+Memory Management (concept),malloc/free (concept),1
+Memory Management (concept),Fragmentation,1
+Memory Management (concept),Free Lists,1
+Memory Management (concept),Memory Hierarchy/Multi-level Cache,1
+Memory Management (concept),Buffer Overflow (concept),1
+Stack/Stack Frames,Memory Management (concept),1
+Stack/Stack Frames,x86-64 Syntax and Semantics (concept),1
+x86-64 Syntax and Semantics (concept),Buffer Overflow (concept),1
+Loader (concept),Libraries,1
+Assembler (concept),Linker (concept),1
+Linker (concept),Loader (concept),1
+Linker (concept),Libraries,1
+Temporal/Spatial Locality (concept),Memory Hierarchy/Multi-level Cache,1
+Temporal/Spatial Locality (concept),Cache Performance,1
+Cache/Cache Organization (concept),Cache Hit/Miss (concept),1
+Cache Hit/Miss (concept),Temporal/Spatial Locality (concept),1
+Cache Performance,Memory Hierarchy/Multi-level Cache,1
+Page Tables (concept),Page Fault,1
+Addressing/Address Space (concept),Address Mapping/Translation (concept),1
+Address Mapping/Translation (concept),Page Tables (concept),1
+Address Mapping/Translation (concept),Translation Lookaside Buffer,1
+Page Fault,Exception (concept),1
+Dynamic Memory Allocation (concept),malloc/free (concept),1
+Dynamic Memory Allocation (concept),Fragmentation,1
+malloc/free (concept),Free Lists,1
+Fragmentation,Free Lists,1
+Exception (concept),System Call,1
+Processes (concept),Zombie Process/wait,1
+Processes (concept),Fork-Exec Model,1
+Processes (concept),Multiprocessing (concept),1
+Processes (concept),Process Graph,1
+Multiprocessing (concept),Fork (concept),1
+Multiprocessing (concept),Context Switching,1
+Fork (concept),Zombie Process/wait,1
+Fork (concept),Fork-Exec Model,1
+Fork (concept),Process Graph,1
+System Call,Exception (concept),1

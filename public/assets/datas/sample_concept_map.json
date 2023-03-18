@@ -1,0 +1,17 @@
+{
+  "nodes": [
+    { "id": "c1", "group": 1, "val": 1 },
+    { "id": "c2", "group": 1, "val": 1 },
+    { "id": "c3", "group": 1, "val": 1 },
+    { "id": "c4", "group": 1, "val": 1 },
+    { "id": "c5", "group": 1, "val": 1 }
+  ],
+  "links": [
+    { "source": "c1", "target": "c2", "val": 1 },
+    { "source": "c1", "target": "c3", "val": 1 },
+    { "source": "c3", "target": "c4", "val": 1 },
+    { "source": "c4", "target": "c5", "val": 1 },
+    { "source": "c3", "target": "c5", "val": 1 }
+  ],
+  "topicConcepts": []
+}

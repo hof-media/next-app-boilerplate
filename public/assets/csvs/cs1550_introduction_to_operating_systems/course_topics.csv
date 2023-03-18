@@ -1,0 +1,37 @@
+tName,tDescription
+Binary Numbers,placeholder
+Binary Operations/Bit Manipulations,placeholder
+Data Representation (Types),placeholder
+Strings,placeholder
+Arrays,placeholder
+Compilation (Using C),placeholder
+C Syntax/Semantics,placeholder
+Pointers,placeholder
+Heap,placeholder
+Virtual Memory Organization,placeholder
+Memory Management,placeholder
+Stack/Stack Frames,placeholder
+Instruction Set Architecture,placeholder
+x86-64 Syntax and Semantics,placeholder
+Loader,placeholder
+Assembler,placeholder
+Linker,placeholder
+Temporal/Spatial Locality,placeholder
+Physical Memory Organization,placeholder
+Cache/Cache Organization,placeholder
+Cach Hit/Miss,placeholder
+Cache Performance,placeholder
+Page Tables,placeholder
+Addressing/Address Space,placeholder
+Address Mapping/Translation,placeholder
+Page fault,placeholder
+Dynamic Memory Allocation,placeholder
+malloc/free,placeholder
+Fragmentation,placeholder
+Exception,placeholder
+Control Flow,placeholder
+Processes,placeholder
+Multiprocessing,placeholder
+Fork,placeholder
+System Call,placeholder
+Threads,placeholder

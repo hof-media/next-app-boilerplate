@@ -1,0 +1,1376 @@
+{
+  "course": { "cName": "c1", "cDescription": "fff" },
+  "topics": [
+    { "tName": "Binary Numbers", "tDescription": "placeholder" },
+    {
+      "tName": "Binary Operations/Bit Manipulations",
+      "tDescription": "placeholder"
+    },
+    { "tName": "Data Representation (Types)", "tDescription": "placeholder" },
+    { "tName": "Strings", "tDescription": "placeholder" },
+    { "tName": "Arrays", "tDescription": "placeholder" },
+    { "tName": "Compilation (Using C)", "tDescription": "placeholder" },
+    { "tName": "C Syntax/Semantics", "tDescription": "placeholder" },
+    { "tName": "Pointers", "tDescription": "placeholder" },
+    { "tName": "Heap", "tDescription": "placeholder" },
+    { "tName": "Virtual Memory Organization", "tDescription": "placeholder" },
+    { "tName": "Memory Management", "tDescription": "placeholder" },
+    { "tName": "Stack/Stack Frames", "tDescription": "placeholder" },
+    { "tName": "Instruction Set Architecture", "tDescription": "placeholder" },
+    { "tName": "x86-64 Syntax and Semantics", "tDescription": "placeholder" },
+    { "tName": "Loader", "tDescription": "placeholder" },
+    { "tName": "Assembler", "tDescription": "placeholder" },
+    { "tName": "Linker", "tDescription": "placeholder" },
+    { "tName": "Temporal/Spatial Locality", "tDescription": "placeholder" },
+    { "tName": "Physical Memory Organization", "tDescription": "placeholder" },
+    { "tName": "Cache/Cache Organization", "tDescription": "placeholder" },
+    { "tName": "Cach Hit/Miss", "tDescription": "placeholder" },
+    { "tName": "Cache Performance", "tDescription": "placeholder" },
+    { "tName": "Page Tables", "tDescription": "placeholder" },
+    { "tName": "Addressing/Address Space", "tDescription": "placeholder" },
+    { "tName": "Address Mapping/Translation", "tDescription": "placeholder" },
+    { "tName": "Page fault", "tDescription": "placeholder" },
+    { "tName": "Dynamic Memory Allocation", "tDescription": "placeholder" },
+    { "tName": "malloc/free", "tDescription": "placeholder" },
+    { "tName": "Fragmentation", "tDescription": "placeholder" },
+    { "tName": "Exception", "tDescription": "placeholder" },
+    { "tName": "Control Flow", "tDescription": "placeholder" },
+    { "tName": "Processes", "tDescription": "placeholder" },
+    { "tName": "Multiprocessing", "tDescription": "placeholder" },
+    { "tName": "Fork", "tDescription": "placeholder" },
+    { "tName": "System Call", "tDescription": "placeholder" },
+    { "tName": "Threads", "tDescription": "placeholder" }
+  ],
+  "conceptsAndTopics": [
+    {
+      "conName": "Binary Numbers/Binary Representation",
+      "conDescription": "placeholder",
+      "nodeVal": 1
+    },
+    {
+      "conName": "Binary Operations/Bit Manipulations",
+      "conDescription": "placeholder",
+      "nodeVal": 1
+    },
+    {
+      "conName": "Data Representation (Types)",
+      "conDescription": "placeholder",
+      "nodeVal": 1,
+      "topic": {
+        "tName": "Binary Operations/Bit Manipulations",
+        "tDescription": "placeholder"
+      }
+    },
+    {
+      "conName": "Strings",
+      "conDescription": "placeholder",
+      "nodeVal": 1,
+      "topic": {
+        "tName": "Data Representation (Types)",
+        "tDescription": "placeholder"
+      }
+    },
+    {
+      "conName": "Pointers",
+      "conDescription": "placeholder",
+      "nodeVal": 1,
+      "topic": {
+        "tName": "Data Representation (Types)",
+        "tDescription": "placeholder"
+      }
+    },
+    {
+      "conName": "Compilation (Using C)",
+      "conDescription": "placeholder",
+      "nodeVal": 1
+    },
+    {
+      "conName": "C Syntax and Semantics",
+      "conDescription": "placeholder",
+      "nodeVal": 1,
+      "topic": {
+        "tName": "Compilation (Using C)",
+        "tDescription": "placeholder"
+      }
+    },
+    {
+      "conName": "Arrays",
+      "conDescription": "placeholder",
+      "nodeVal": 1,
+      "topic": { "tName": "Pointers", "tDescription": "placeholder" }
+    },
+    {
+      "conName": "Virtual Memory Organization",
+      "conDescription": "placeholder",
+      "nodeVal": 1,
+      "topic": { "tName": "Memory Management", "tDescription": "placeholder" }
+    },
+    {
+      "conName": "Heap",
+      "conDescription": "placeholder",
+      "nodeVal": 1,
+      "topic": {
+        "tName": "Virtual Memory Organization",
+        "tDescription": "placeholder"
+      }
+    },
+    {
+      "conName": "Stack/Stack Frames",
+      "conDescription": "placeholder",
+      "nodeVal": 1,
+      "topic": {
+        "tName": "Virtual Memory Organization",
+        "tDescription": "placeholder"
+      }
+    },
+    {
+      "conName": "Memory Management",
+      "conDescription": "placeholder",
+      "nodeVal": 1,
+      "topic": {
+        "tName": "Virtual Memory Organization",
+        "tDescription": "placeholder"
+      }
+    },
+    {
+      "conName": "x86-64 Syntax and Semantics",
+      "conDescription": "placeholder",
+      "nodeVal": 1,
+      "topic": {
+        "tName": "Instruction Set Architecture",
+        "tDescription": "placeholder"
+      }
+    },
+    {
+      "conName": "Buffer Overflow (Concept)",
+      "conDescription": "placeholder",
+      "nodeVal": 1,
+      "topic": {
+        "tName": "x86-64 Syntax and Semantics",
+        "tDescription": "placeholder"
+      }
+    },
+    {
+      "conName": "Assembler",
+      "conDescription": "placeholder",
+      "nodeVal": 1,
+      "topic": {
+        "tName": "Compilation (Using C)",
+        "tDescription": "placeholder"
+      }
+    },
+    {
+      "conName": "Linker",
+      "conDescription": "placeholder",
+      "nodeVal": 1,
+      "topic": { "tName": "Assembler", "tDescription": "placeholder" }
+    },
+    {
+      "conName": "Loader",
+      "conDescription": "placeholder",
+      "nodeVal": 1,
+      "topic": { "tName": "Linker", "tDescription": "placeholder" }
+    },
+    {
+      "conName": "Libraries",
+      "conDescription": "placeholder",
+      "nodeVal": 1,
+      "topic": { "tName": "Loader", "tDescription": "placeholder" }
+    },
+    {
+      "conName": "Cache/Cache Organization",
+      "conDescription": "placeholder",
+      "nodeVal": 1,
+      "topic": { "tName": "Memory Management", "tDescription": "placeholder" }
+    },
+    {
+      "conName": "Cache Hit/Miss",
+      "conDescription": "placeholder",
+      "nodeVal": 1,
+      "topic": {
+        "tName": "Cache/Cache Organization",
+        "tDescription": "placeholder"
+      }
+    },
+    {
+      "conName": "Temporal/Spatial Locality",
+      "conDescription": "placeholder",
+      "nodeVal": 1
+    },
+    {
+      "conName": "Cache Performance",
+      "conDescription": "placeholder",
+      "nodeVal": 1,
+      "topic": {
+        "tName": "Temporal/Spatial Locality",
+        "tDescription": "placeholder"
+      }
+    },
+    {
+      "conName": "Memory Hierarchy/Multi-level Cache",
+      "conDescription": "placeholder",
+      "nodeVal": 1,
+      "topic": {
+        "tName": "Temporal/Spatial Locality",
+        "tDescription": "placeholder"
+      }
+    },
+    {
+      "conName": "Addressing/Address Space",
+      "conDescription": "placeholder",
+      "nodeVal": 1,
+      "topic": {
+        "tName": "Virtual Memory Organization",
+        "tDescription": "placeholder"
+      }
+    },
+    {
+      "conName": "Address Mapping/Translation",
+      "conDescription": "placeholder",
+      "nodeVal": 1,
+      "topic": {
+        "tName": "Addressing/Address Space",
+        "tDescription": "placeholder"
+      }
+    },
+    {
+      "conName": "Page Tables",
+      "conDescription": "placeholder",
+      "nodeVal": 1,
+      "topic": {
+        "tName": "Address Mapping/Translation",
+        "tDescription": "placeholder"
+      }
+    },
+    {
+      "conName": "Page Fault",
+      "conDescription": "placeholder",
+      "nodeVal": 1,
+      "topic": { "tName": "Page Tables", "tDescription": "placeholder" }
+    },
+    {
+      "conName": "Translation Lookaside Buffer",
+      "conDescription": "placeholder",
+      "nodeVal": 1,
+      "topic": {
+        "tName": "Address Mapping/Translation",
+        "tDescription": "placeholder"
+      }
+    },
+    {
+      "conName": "Dynamic Memory Allocation",
+      "conDescription": "placeholder",
+      "nodeVal": 1,
+      "topic": {
+        "tName": "Virtual Memory Organization",
+        "tDescription": "placeholder"
+      }
+    },
+    {
+      "conName": "malloc/free",
+      "conDescription": "placeholder",
+      "nodeVal": 1,
+      "topic": {
+        "tName": "Dynamic Memory Allocation",
+        "tDescription": "placeholder"
+      }
+    },
+    {
+      "conName": "Fragmentation",
+      "conDescription": "placeholder",
+      "nodeVal": 1,
+      "topic": {
+        "tName": "Dynamic Memory Allocation",
+        "tDescription": "placeholder"
+      }
+    },
+    {
+      "conName": "Free Lists",
+      "conDescription": "placeholder",
+      "nodeVal": 1,
+      "topic": { "tName": "malloc/free", "tDescription": "placeholder" }
+    },
+    {
+      "conName": "Exception",
+      "conDescription": "placeholder",
+      "nodeVal": 1,
+      "topic": { "tName": "Control Flow", "tDescription": "placeholder" }
+    },
+    {
+      "conName": "System Call",
+      "conDescription": "placeholder",
+      "nodeVal": 1,
+      "topic": { "tName": "Exception", "tDescription": "placeholder" }
+    },
+    {
+      "conName": "Processes",
+      "conDescription": "placeholder",
+      "nodeVal": 1,
+      "topic": { "tName": "Control Flow", "tDescription": "placeholder" }
+    },
+    {
+      "conName": "Multiprocessing",
+      "conDescription": "placeholder",
+      "nodeVal": 1,
+      "topic": { "tName": "Processes", "tDescription": "placeholder" }
+    },
+    {
+      "conName": "Context Switching",
+      "conDescription": "placeholder",
+      "nodeVal": 1,
+      "topic": { "tName": "Multiprocessing", "tDescription": "placeholder" }
+    },
+    {
+      "conName": "Fork",
+      "conDescription": "placeholder",
+      "nodeVal": 1,
+      "topic": { "tName": "Multiprocessing", "tDescription": "placeholder" }
+    },
+    {
+      "conName": "Zombie Process/wait",
+      "conDescription": "placeholder",
+      "nodeVal": 1,
+      "topic": { "tName": "Fork", "tDescription": "placeholder" }
+    },
+    {
+      "conName": "Fork-Exec Model",
+      "conDescription": "placeholder",
+      "nodeVal": 1,
+      "topic": { "tName": "Fork", "tDescription": "placeholder" }
+    },
+    {
+      "conName": "Process Graph",
+      "conDescription": "placeholder",
+      "nodeVal": 1,
+      "topic": { "tName": "Fork", "tDescription": "placeholder" }
+    },
+    {
+      "conName": "pthread",
+      "conDescription": "placeholder",
+      "nodeVal": 1,
+      "topic": { "tName": "Threads", "tDescription": "placeholder" }
+    }
+  ],
+  "conceptLinks": [
+    {
+      "source": {
+        "conName": "Binary Numbers/Binary Representation",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Binary Numbers/Binary Representation"
+      },
+      "target": {
+        "conName": "Binary Operations/Bit Manipulations",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Binary Numbers/Binary Representation"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Binary Operations/Bit Manipulations",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Binary Numbers/Binary Representation"
+      },
+      "target": {
+        "conName": "Data Representation (Types)",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Binary Operations/Bit Manipulations"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Data Representation (Types)",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Binary Operations/Bit Manipulations"
+      },
+      "target": {
+        "conName": "Strings",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Data Representation (Types)"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Data Representation (Types)",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Binary Operations/Bit Manipulations"
+      },
+      "target": {
+        "conName": "Pointers",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Data Representation (Types)"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Data Representation (Types)",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Binary Operations/Bit Manipulations"
+      },
+      "target": {
+        "conName": "C Syntax and Semantics",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Compilation (Using C)"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Strings",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Data Representation (Types)"
+      },
+      "target": {
+        "conName": "Arrays",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Pointers"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Strings",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Data Representation (Types)"
+      },
+      "target": {
+        "conName": "Pointers",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Data Representation (Types)"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Arrays",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Pointers"
+      },
+      "target": {
+        "conName": "Memory Management",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Virtual Memory Organization"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Arrays",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Pointers"
+      },
+      "target": {
+        "conName": "x86-64 Syntax and Semantics",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Instruction Set Architecture"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Arrays",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Pointers"
+      },
+      "target": {
+        "conName": "Buffer Overflow (Concept)",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "x86-64 Syntax and Semantics"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Arrays",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Pointers"
+      },
+      "target": {
+        "conName": "Temporal/Spatial Locality",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Cache Hit/Miss"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Compilation (Using C)",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "C Syntax and Semantics"
+      },
+      "target": {
+        "conName": "C Syntax and Semantics",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Compilation (Using C)"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Compilation (Using C)",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "C Syntax and Semantics"
+      },
+      "target": {
+        "conName": "x86-64 Syntax and Semantics",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Instruction Set Architecture"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Compilation (Using C)",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "C Syntax and Semantics"
+      },
+      "target": {
+        "conName": "Assembler",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Compilation (Using C)"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "C Syntax and Semantics",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Compilation (Using C)"
+      },
+      "target": {
+        "conName": "Compilation (Using C)",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "C Syntax and Semantics"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "C Syntax and Semantics",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Compilation (Using C)"
+      },
+      "target": {
+        "conName": "malloc/free",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Dynamic Memory Allocation"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "C Syntax and Semantics",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Compilation (Using C)"
+      },
+      "target": {
+        "conName": "pthread",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Threads"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "C Syntax and Semantics",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Compilation (Using C)"
+      },
+      "target": {
+        "conName": "Memory Management",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Virtual Memory Organization"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "C Syntax and Semantics",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Compilation (Using C)"
+      },
+      "target": {
+        "conName": "Pointers",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Data Representation (Types)"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Pointers",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Data Representation (Types)"
+      },
+      "target": {
+        "conName": "Strings",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Data Representation (Types)"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Pointers",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Data Representation (Types)"
+      },
+      "target": {
+        "conName": "Arrays",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Pointers"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Pointers",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Data Representation (Types)"
+      },
+      "target": {
+        "conName": "Memory Management",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Virtual Memory Organization"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Heap",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Virtual Memory Organization"
+      },
+      "target": {
+        "conName": "Memory Management",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Virtual Memory Organization"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Virtual Memory Organization",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Memory Management"
+      },
+      "target": {
+        "conName": "Heap",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Virtual Memory Organization"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Virtual Memory Organization",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Memory Management"
+      },
+      "target": {
+        "conName": "Memory Management",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Virtual Memory Organization"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Virtual Memory Organization",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Memory Management"
+      },
+      "target": {
+        "conName": "Stack/Stack Frames",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Virtual Memory Organization"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Virtual Memory Organization",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Memory Management"
+      },
+      "target": {
+        "conName": "Address Mapping/Translation",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Addressing/Address Space"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Virtual Memory Organization",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Memory Management"
+      },
+      "target": {
+        "conName": "Addressing/Address Space",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Virtual Memory Organization"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Virtual Memory Organization",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Memory Management"
+      },
+      "target": {
+        "conName": "Dynamic Memory Allocation",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Virtual Memory Organization"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Memory Management",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Virtual Memory Organization"
+      },
+      "target": {
+        "conName": "Cache/Cache Organization",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Memory Management"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Memory Management",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Virtual Memory Organization"
+      },
+      "target": {
+        "conName": "Dynamic Memory Allocation",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Virtual Memory Organization"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Memory Management",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Virtual Memory Organization"
+      },
+      "target": {
+        "conName": "malloc/free",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Dynamic Memory Allocation"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Memory Management",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Virtual Memory Organization"
+      },
+      "target": {
+        "conName": "Fragmentation",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Dynamic Memory Allocation"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Memory Management",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Virtual Memory Organization"
+      },
+      "target": {
+        "conName": "Free Lists",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "malloc/free"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Memory Management",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Virtual Memory Organization"
+      },
+      "target": {
+        "conName": "Memory Hierarchy/Multi-level Cache",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Temporal/Spatial Locality"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Memory Management",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Virtual Memory Organization"
+      },
+      "target": {
+        "conName": "Buffer Overflow (Concept)",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "x86-64 Syntax and Semantics"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Stack/Stack Frames",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Virtual Memory Organization"
+      },
+      "target": {
+        "conName": "Memory Management",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Virtual Memory Organization"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Stack/Stack Frames",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Virtual Memory Organization"
+      },
+      "target": {
+        "conName": "x86-64 Syntax and Semantics",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Instruction Set Architecture"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "x86-64 Syntax and Semantics",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Instruction Set Architecture"
+      },
+      "target": {
+        "conName": "Buffer Overflow (Concept)",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "x86-64 Syntax and Semantics"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Loader",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Linker"
+      },
+      "target": {
+        "conName": "Libraries",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Loader"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Assembler",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Compilation (Using C)"
+      },
+      "target": {
+        "conName": "Linker",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Assembler"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Linker",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Assembler"
+      },
+      "target": {
+        "conName": "Loader",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Linker"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Linker",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Assembler"
+      },
+      "target": {
+        "conName": "Libraries",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Loader"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Temporal/Spatial Locality",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Cache Hit/Miss"
+      },
+      "target": {
+        "conName": "Memory Hierarchy/Multi-level Cache",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Temporal/Spatial Locality"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Temporal/Spatial Locality",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Cache Hit/Miss"
+      },
+      "target": {
+        "conName": "Cache Performance",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Temporal/Spatial Locality"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Cache/Cache Organization",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Memory Management"
+      },
+      "target": {
+        "conName": "Cache Hit/Miss",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Cache/Cache Organization"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Cache Hit/Miss",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Cache/Cache Organization"
+      },
+      "target": {
+        "conName": "Temporal/Spatial Locality",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Cache Hit/Miss"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Cache Performance",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Temporal/Spatial Locality"
+      },
+      "target": {
+        "conName": "Memory Hierarchy/Multi-level Cache",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Temporal/Spatial Locality"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Page Tables",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Address Mapping/Translation"
+      },
+      "target": {
+        "conName": "Page Fault",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Page Tables"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Addressing/Address Space",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Virtual Memory Organization"
+      },
+      "target": {
+        "conName": "Address Mapping/Translation",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Addressing/Address Space"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Address Mapping/Translation",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Addressing/Address Space"
+      },
+      "target": {
+        "conName": "Page Tables",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Address Mapping/Translation"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Address Mapping/Translation",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Addressing/Address Space"
+      },
+      "target": {
+        "conName": "Translation Lookaside Buffer",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Address Mapping/Translation"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Page Fault",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Page Tables"
+      },
+      "target": {
+        "conName": "Exception",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Control Flow"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Dynamic Memory Allocation",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Virtual Memory Organization"
+      },
+      "target": {
+        "conName": "malloc/free",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Dynamic Memory Allocation"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Dynamic Memory Allocation",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Virtual Memory Organization"
+      },
+      "target": {
+        "conName": "Fragmentation",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Dynamic Memory Allocation"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "malloc/free",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Dynamic Memory Allocation"
+      },
+      "target": {
+        "conName": "Free Lists",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "malloc/free"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Fragmentation",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Dynamic Memory Allocation"
+      },
+      "target": {
+        "conName": "Free Lists",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "malloc/free"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Exception",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Control Flow"
+      },
+      "target": {
+        "conName": "System Call",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Exception"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Processes",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Control Flow"
+      },
+      "target": {
+        "conName": "Zombie Process/wait",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Fork"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Processes",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Control Flow"
+      },
+      "target": {
+        "conName": "Fork-Exec Model",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Fork"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Processes",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Control Flow"
+      },
+      "target": {
+        "conName": "Multiprocessing",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Processes"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Processes",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Control Flow"
+      },
+      "target": {
+        "conName": "Process Graph",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Fork"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Multiprocessing",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Processes"
+      },
+      "target": {
+        "conName": "Fork",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Multiprocessing"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Multiprocessing",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Processes"
+      },
+      "target": {
+        "conName": "Context Switching",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Multiprocessing"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Fork",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Multiprocessing"
+      },
+      "target": {
+        "conName": "Zombie Process/wait",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Fork"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Fork",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Multiprocessing"
+      },
+      "target": {
+        "conName": "Fork-Exec Model",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Fork"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "Fork",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Multiprocessing"
+      },
+      "target": {
+        "conName": "Process Graph",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Fork"
+      },
+      "edgeVal": 1
+    },
+    {
+      "source": {
+        "conName": "System Call",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Exception"
+      },
+      "target": {
+        "conName": "Exception",
+        "conDescription": "placeholder",
+        "nodeVal": 1,
+        "tName": "Control Flow"
+      },
+      "edgeVal": 1
+    }
+  ]
+}
